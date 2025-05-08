@@ -1,5 +1,5 @@
 let noButtonDodgeCount = 0;  // Track dodge count
-const maxDodges = 5;  // Max dodges allowed
+const maxDodges = 20;  // Max dodges allowed
 
 // Move to the next question or show the final message
 function nextQuestion(accepted, questionNumber) {
