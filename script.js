@@ -28,7 +28,7 @@ function handleNo() {
 function dodgeNo() {
     if (noButtonDodgeCount < maxDodges) {
         const btn = document.querySelector('.btn.no');
-        btn.style.transform = `translate(${Math.random() * 200 - 100}px, ${Math.random() * 100 - 50}px)`;
+        btn.style.transform = `translate(${Math.random() * 200 - 100}px, ${Math.random() * 100 - 100}px)`;
         noButtonDodgeCount++;
     }
 }
